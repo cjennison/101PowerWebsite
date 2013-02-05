@@ -1,0 +1,191 @@
+/** HEADER */
+
+#header {
+}
+
+/** TOP MENU */
+
+#topmenu {
+	height: 80px;
+}
+
+#topmenu ul {
+	margin: 0px;
+	padding: 0px 0px 0px 441px;
+	list-style: none;
+}
+
+#topmenu li {
+	display: inline;
+}
+
+#topmenu a {
+	display: block;
+	float: left;
+	text-indent: -9999px;
+}
+
+#topmenu1 {
+	width: 17px;
+	height: 16px;
+	padding: 32px 0px 0px 0px;
+	background: url(images/homepage03.gif) no-repeat right bottom;
+}
+
+#topmenu2 {
+	width: 17px;
+	height: 14px;
+	padding: 65px 0px 0px 18px;
+	background: url(images/homepage04.gif) no-repeat right bottom;
+}
+
+#topmenu #topmenu3 {
+	width: 70px;
+	height: 13px;
+	padding: 20px 0px 0px 2px;
+	background: url(images/homepage05.gif) no-repeat 2px 18px;
+	text-indent: 18px;
+}
+
+/** LOGO */
+
+#logo {
+	height: 65px;
+	background: url(images/homepage06.jpg) no-repeat right bottom;
+}
+
+#logo h1, #logo p {
+	text-indent: -9999px;
+}
+
+/** MENU */
+
+#menu {
+}
+
+#menu ul {
+	margin: 0px;
+	padding: 0px 50px 0px 0px;
+	list-style: none;
+	text-align: right;
+}
+
+#menu li {
+	display: inline;
+}
+
+#menu a {
+	padding: 0px 12px 0px 20px;
+	background: url(images/homepage07.gif) no-repeat left center;
+}
+
+#menu .first a {
+	background: none;
+}
+
+/** PAGE */
+
+#page {
+	width: 480px;
+	margin: 0px auto;
+	padding: 6px 49px 0px 249px;
+}
+
+/** SEARCH */
+
+#search {
+	height: 36px;
+	margin: 0px 7px;
+	padding: 13px 0px 0px 0px;
+	border-bottom: 3px solid #FFFFFF;
+}
+
+/** FEATURE */
+
+#feature {
+	margin: 0px 7px;
+	padding: 0px 25px 0px 175px;
+	background: #F7F7F7 url(images/homepage10.jpg) no-repeat left top;
+}
+
+/** CONTAINER */
+
+#container {
+	width: 466px;
+	padding: 0px 7px;
+}
+
+/** SECTION */
+
+#section {
+	float: left;
+	width: 76px;
+}
+
+/** CONTENT */
+
+#content {
+	float: right;
+	width: 388px;
+}
+
+#content .padding {
+	padding: 20px 15px;
+}
+
+#content .items, #content .item-info {
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+}
+
+#content .items li {
+	display: block;
+	float: left;
+	width: 175px;
+	padding: 20px 5px 0px 10px;
+}
+
+#content .items .price {
+	margin-left: 10px;
+}
+
+#content .items .cart, #content .item-info .cart, #content .items .info {
+	display: block;
+	float: left;
+	width: 44px;
+	height: 17px;
+	margin: 0px 0px 0px 10px;
+	padding: 5px 0px 0px 0px;
+}
+
+#content .items .cart, #content .item-info .cart {
+	background: url(images/homepage16.gif) no-repeat left top;
+	text-indent: -9999px;
+}
+
+#content .item-info .cart {
+	margin-left: 0px;
+}
+
+#content .items {
+}
+
+#content .item-info {
+}
+
+#content .item-info .image {
+	float: left;
+	margin: 0px 15px 0px 0px;
+}
+
+/** FOOTER */
+
+#footer {
+	clear: both;
+	height: 100px;
+	margin: 0px 49px 0px 248px;
+	padding: 10px;
+	background: url(images/homepage18.gif) no-repeat right top;
+}
+
