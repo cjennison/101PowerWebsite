@@ -210,10 +210,18 @@ html>body #wrapper {
 /** CONTAINER */
 
 #container {
-	background: url(images/homepage15.gif) repeat-y left top;
+
 }
 
 /** SECTION */
+
+#sectionBackground{
+	position: absolute;
+	width: 76px;
+	margin-top: 44px;
+	height: 228px;
+	background:rgba(200,200,200, .5);
+}
 
 #section .title {
 	height: 28px;
@@ -236,10 +244,14 @@ html>body #wrapper {
 
 #section .links ul {
 	padding: 0px;
+
 }
 
 #section .links, #section .links a {
 	color: #343434;
+	height:216px;
+	background: rgba(200,200,200,.7);
+
 }
 
 #section .links h3 {
