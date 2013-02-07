@@ -7,6 +7,7 @@ html, body {
 body {
 	margin: 0px;
 	padding: 0px;
+	overflow:hidden;
 	background: #FFFFFF url(images/homepage01.gif) repeat left top;
 }
 
