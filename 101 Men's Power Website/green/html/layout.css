@@ -51,7 +51,7 @@
 
 #logo {
 	height: 65px;
-	background: url(images/homepage06.jpg) no-repeat right bottom;
+	/* background: url(images/homepage06.jpg) no-repeat right bottom; */
 }
 
 #logo h1, #logo p {
@@ -61,6 +61,8 @@
 /** MENU */
 
 #menu {
+	position:relative;
+	left: -100px;
 }
 
 #menu ul {
@@ -87,7 +89,7 @@
 
 #page {
 	width: 480px;
-	margin: 0px auto;
+	margin-left:-100px;
 	padding: 6px 49px 0px 249px;
 }
 
@@ -112,7 +114,7 @@
 
 #container {
 	width: 466px;
-	padding: 0px 7px;
+	margin-left:7px;
 }
 
 /** SECTION */
@@ -184,8 +186,16 @@
 #footer {
 	clear: both;
 	height: 100px;
-	margin: 0px 49px 0px 248px;
+	margin: 0px 149px 0px 248px;
 	padding: 10px;
-	background: url(images/homepage18.gif) no-repeat right top;
+}
+
+#background{
+	position:absolute;
+	left:50%;
+	margin-left:-250px;
+	width:300px;
+	height:2000px;
+	background:green;
 }
 

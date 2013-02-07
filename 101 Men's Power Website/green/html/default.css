@@ -100,7 +100,6 @@ hr { display: none; }
 	margin-left: -389px;
 	height: 100%;
 	min-height: 100%;
-	background: url(images/homepage02.gif) repeat-y left top;
 }
 
 html>body #wrapper {
@@ -111,7 +110,7 @@ html>body #wrapper {
 
 #header {
 	height: 171px;
-	background: url(images/subpage3_01.jpg) no-repeat left top;
+	margin-left: -100px;
 }
 
 /** TOP MENU */
@@ -136,7 +135,6 @@ html>body #wrapper {
 /** PAGE */
 
 #page {
-	background: url(images/subpage3_02.jpg) no-repeat left top;
 }
 
 /** SEARCH */
@@ -317,6 +315,7 @@ html>body #wrapper {
 
 #footer .credits {
 	float: left;
+	margin-left: -100px;
 	color: #CCF0CC;
 }
 
