@@ -127,8 +127,6 @@
 
 #feature {
 	margin: 0px 7px;
-	padding: 0px 25px 0px 175px;
-	background: #F7F7F7 url(images/homepage10.jpg) no-repeat left top;
 }
 
 /** CONTAINER */
@@ -206,6 +204,9 @@
 
 #footer {
 	clear: both;
+	bottom: -85px;
+	position: absolute;
+	width: 365px;
 	height: 100px;
 	margin: 0px 149px 0px 248px;
 	padding: 10px;
