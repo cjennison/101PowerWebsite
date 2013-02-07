@@ -91,6 +91,27 @@
 	width: 480px;
 	margin-left:-100px;
 	padding: 6px 49px 0px 249px;
+	/*
+	border-style:solid;
+	border-width:2px;
+	border-color:#ffbe57;
+	box-shadow: 1px 5px 14px -3px #4D4D4D;
+	*/
+}
+
+#pageBacking{
+	position: absolute;
+	width: 480px;
+	top: 169px;
+	left: 50%;
+	margin-left: -240px;
+	height: 503px;
+	background: white;
+	
+	border-style:solid;
+	border-width:1px;
+	border-color:#000000;
+	box-shadow: 1px 5px 14px -3px #4D4D4D;
 }
 
 /** SEARCH */
