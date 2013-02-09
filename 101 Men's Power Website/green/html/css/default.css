@@ -284,7 +284,6 @@ html>body #wrapper {
 }
 
 #content .items img, #content .item-info img {
-	border: 1px solid #D3D3D3;
 }
 
 #content .items .cart, #content .item-info .cart, #content .items .info {
@@ -340,4 +339,11 @@ html>body #wrapper {
 
 #footer .links a {
 	color: #929292;
+}
+
+img#logoimg{
+	float:left;
+	text-align:center;
+	padding:0px 10px 5px 0px;
+	border-style: none;
 }
