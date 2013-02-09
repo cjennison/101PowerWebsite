@@ -78,7 +78,7 @@
 
 #menu a {
 	padding: 0px 12px 0px 20px;
-	background: url(images/homepage07.gif) no-repeat left center;
+	background: url(../images/homepage07.gif) no-repeat left center;
 }
 
 #menu .first a {
@@ -181,7 +181,7 @@
 }
 
 #content .items .cart, #content .item-info .cart {
-	background: url(images/homepage16.gif) no-repeat left top;
+	background: url(../images/homepage16.gif) no-repeat left top;
 	text-indent: -9999px;
 }
 

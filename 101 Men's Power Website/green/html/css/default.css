@@ -8,7 +8,7 @@ body {
 	margin: 0px;
 	padding: 0px;
 	overflow:hidden;
-	background: #444444 url(images/homepage01.gif) repeat left top;
+	background: #444444 url(../images/homepage01.gif) repeat left top;
 }
 
 /** FORMS */
@@ -141,7 +141,7 @@ html>body #wrapper {
 /** SEARCH */
 
 #search {
-	background: #F6F6F6 url(images/homepage08.gif) repeat-x left top;
+	background: #F6F6F6 url(../images/homepage08.gif) repeat-x left top;
 }
 
 #search form {
@@ -226,7 +226,7 @@ html>body #wrapper {
 #section .title {
 	height: 28px;
 	padding: 12px 10px 0px 0px;
-	background: #807E07 url(images/homepage13.gif) repeat-x left top;
+	background: #807E07 url(../images/homepage13.gif) repeat-x left top;
 	text-transform: lowercase;
 	text-align: right;
 	font-size: 12px;
@@ -310,7 +310,7 @@ html>body #wrapper {
 	height: 17px;
 	margin: 0px 0px 0px 10px;
 	padding: 5px 0px 0px 0px;
-	background: #525252 url(images/homepage17.gif) repeat-x left top;
+	background: #525252 url(../images/homepage17.gif) repeat-x left top;
 }
 
 #content .items .sale, #content .item-info .sale {
