@@ -221,3 +221,76 @@
 	background: url('../images/bgimage.jpg') 0px -164px;
 }
 
+form label{
+	float:left;
+	font-size:12px
+}
+
+form{
+	margin: 0px;
+	margin-left: 88px;
+	float: left;
+	width: 400px;
+	height: 400px;
+	padding: 0px;
+}
+
+form input{
+	float:left;
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+	border: 1px solid #ccc;
+	font-size: 20px;
+	width: 347px;
+	display: block;
+	margin-bottom: 15px;
+	margin-top: 5px;
+	outline: none;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	-o-border-radius: 10px;
+	-ms-border-radius: 10px;
+	border-radius: 10px;
+}
+
+form textarea{
+	resize: none;
+	float:left;
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+	border: 1px solid #ccc;
+	font-size: 20px;
+	width: 347px;
+	display: block;
+	margin-bottom: 15px;
+	margin-top: 5px;
+	outline: none;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	-o-border-radius: 10px;
+	-ms-border-radius: 10px;
+	border-radius: 10px;
+}
+form #subf{
+	float: left;
+	left: 0;
+	margin-left: -340px;
+	margin-top: 16px;
+}
+form #subl{
+	float: left;
+	left: 0;
+	margin-left: -198px;
+	margin-top: 16px;
+}
+
+form #submitbtn{
+	width:90px;
+	height:30px;
+	font-size:12px;
+	background:rgba(0,200,50, .3);
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	-o-border-radius: 10px;
+	-ms-border-radius: 10px;
+	border-radius: 10px;
+}
+

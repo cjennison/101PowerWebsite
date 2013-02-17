@@ -2,27 +2,30 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="content-type" content="text/html; charset=utf-8" />
-<title></title>
+<title>Contact Us!</title>
 <meta name="keywords" content="" />
 <meta name="description" content="" />
-<link href="default.css" rel="stylesheet" type="text/css" />
+<link href="css/default.css" rel="stylesheet" type="text/css" />
 <style type="text/css">
 <!--
-	@import url("layout.css");
+	@import url("css/layout.css");
 -->
 </style>
 </head>
 <body>
+	<div id="background"></div>
+					<div id="pageBacking"> </div>
+
 <!-- start wrapper -->
 <div id="wrapper">
+
 	<!-- start header -->
 	<div id="header">
 		<div id="topmenu">
 			<ul>
 				<li><a href="#" id="topmenu1" accesskey="1" title="Homepage">Homepage</a></li>
 				<li><a href="#" id="topmenu2" accesskey="2" title="Contact Us">Contact Us</a></li>
-				<li><a href="#" id="topmenu3" accesskey="3" title="View Cart">View Cart</a></li>
-			</ul>
+							</ul>
 		</div>
 		<div id="logo">
 			<h1>Clothing Store</h1>
@@ -30,96 +33,65 @@
 		</div>
 		<div id="menu">
 			<ul>
-				<li class="first"><a href="#" accesskey="4">Mens</a></li>
-				<li><a href="#" accesskey="5">Womens</a></li>
-				<li><a href="#" accesskey="6">Sale</a></li>
-				<li><a href="#" accesskey="7">Customer Service</a></li>
+				<li class="first"><a href="homepage.html" accesskey="4">Home</a></li>
+				<li><a href="#" accesskey="5">Product</a></li>
+				<li><a href="#" accesskey="6">Contact</a></li>
+				<li><a href="#" accesskey="7">中文</a></li>
 			</ul>
 		</div>
 	</div>
 	<!-- end header -->
 	<!-- start page -->
+
 	<div id="page">
 		<!-- start search -->
-		<div id="search">
-			<form method="get" action="">
-				<fieldset>
-				<label for="search-text">Search:</label>
-				<input id="search-text" type="text" name="search-text" value="" />
-				<select id="search-category" name="search-category">
-					<option value="-1">- Category -</option>
-				</select>
-				<input id="search-submit" type="submit" value="Go" />
-				</fieldset>
-			</form>
+		<div id="search" style="">
+        <h2><b>Men's Health Plant Nutrition (101 Men's Power)</b></h2>
+			
 		</div>
 		<!-- end search -->
+		<!-- start feature -->
+		<div id="feature">
+			<img src="images/Homepage/Environment_Image002.jpg" width="466px" height="130px">
+		</div>
+		<!-- end feature -->
 		<!-- start container -->
 		<div id="container">
 			<!-- start section -->
+			
 			<div id="section">
-				<h2 class="title">Section</h2>
+				<h2 class="title"></h2>
 				<ul class="links">
-					<li>
-						<h3>Men</h3>
-						<ul>
-							<li><a href="#">Latest</a></li>
-							<li><a href="#">T-Shirts</a></li>
-							<li><a href="#">Jeans</a></li>
-							<li><a href="#">More</a></li>
-						</ul>
-					</li>
-					<li>
-						<h3>Women</h3>
-						<ul>
-							<li><a href="#">Latest</a></li>
-							<li><a href="#">Dresses</a></li>
-							<li><a href="#">Jeans</a></li>
-							<li><a href="#">More</a></li>
-						</ul>
-					</li>
+					<form>
+						<label width="200px"><b>Name<font color="red"> *</font></b></label><br>
+						<input type="text" id="firstname" name="firstname" required style="width:120px"/>
+						<input type="text" id="lastname" name="lastname" required style="width:200px; margin-left:20px"/><br>
+						<font id="subf" size="1px">First</font><font id="subl" size="1px">Last</font><br>
+						<label style="margin-left: -343px;margin-top:22px"><b>Company</b></label><br><br>
+						<input type="companyname" id="companyname" name="companyname" style="margin-left:-54px; margin-top:9px"/><br><br>
+						<label style="margin-left: -353px;margin-top:13px"><b>Email<font color="red"> *</font></b></label><br><br>
+						<input type="email" id="emailaddr" name="emailaddr" style="margin-top:2px" required/><br><br>
+						<label style="margin-left: -347px;margin-top:13px"><b>Comment<font color="red"> *</font></b></label><br><br>
+						<textarea type="text" id="comment" name="comment" style="margin-top:2px;height:150px" required style="height:300px"></textarea><br><br>
+						<input id="submitbtn" type="submit" value="Submit">
+					</form>
 				</ul>
+
 			</div>
 			<!-- end section -->
 			<!-- start content -->
 			<div id="content">
-				<h2 class="title">Our Latest Additions</h2>
-				<ul class="items">
-					<li>
-						<h3>Lorem ipsum dolor</h3>
-						<h4># FDS12345</h4>
-						<p><a href="#"><img src="images/subpage1_01.jpg" alt="" width="173" height="77" border="0" /></a></p>
-						<p class="price">Price: <strike>$ 75.00</strike> / <span class="sale">Sale: <strong>$ 36.59</strong></span></p>
-						<p> <a class="cart" href="#">Buy</a> <a class="info" href="#">Info</a> </p>
-					</li>
-					<li>
-						<h3>Lorem ipsum dolor</h3>
-						<h4># FDS12345</h4>
-						<p><a href="#"><img src="images/subpage1_02.jpg" alt="" width="173" height="77" border="0" /></a></p>
-						<p class="price">Price: <strike>$ 75.00</strike> / <span class="sale">Sale: <strong>$ 36.59</strong></span></p>
-						<p> <a class="cart" href="#">Buy</a> <a class="info" href="#">Info</a> </p>
-					</li>
-					<li>
-						<h3>Lorem ipsum dolor</h3>
-						<h4># FDS12345</h4>
-						<p><a href="#"><img src="images/subpage1_03.jpg" alt="" width="173" height="77" border="0" /></a></p>
-						<p class="price">Price: <strike>$ 75.00</strike> / <span class="sale">Sale: <strong>$ 36.59</strong></span></p>
-						<p> <a class="cart" href="#">Buy</a> <a class="info" href="#">Info</a> </p>
-					</li>
-					<li>
-						<h3>Lorem ipsum dolor</h3>
-						<h4># FDS12345</h4>
-						<p><a href="#"><img src="images/subpage1_04.jpg" alt="" width="173" height="77" border="0" /></a></p>
-						<p class="price">Price: <strike>$ 75.00</strike> / <span class="sale">Sale: <strong>$ 36.59</strong></span></p>
-						<p> <a class="cart" href="#">Buy</a> <a class="info" href="#">Info</a> </p>
-					</li>
-				</ul>
+				<h2 class="title">Contact us for more information</h2>
+					
 			</div>
-			<!-- end container -->
+			<!-- end content -->
 			<div style="clear: both; height: 30px;">&nbsp;</div>
+			
+
 		</div>
-		<!-- end content -->
+		<!-- end container -->
 	</div>
+
 	<!-- end page -->
 	<!-- start footer -->
 	<div id="footer">
@@ -127,7 +99,9 @@
 		<p class="links"><a href="#">Terms of Use</a> &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp; <a href="#">Legal Information</a> &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp; <a href="#">Privacy</a> &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp; <a href="#">Contact Us</a></p>
 	</div>
 	<!-- end footer -->
+	
 </div>
+
 <!-- end wrapper -->
 </body>
 </html>
