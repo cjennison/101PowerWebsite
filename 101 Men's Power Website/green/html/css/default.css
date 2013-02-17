@@ -7,7 +7,6 @@ html, body {
 body {
 	margin: 0px;
 	padding: 0px;
-	overflow:hidden;
 	background: #444444 url(../images/homepage01.gif) repeat left top;
 }
 
@@ -250,7 +249,7 @@ html>body #wrapper {
 #section .links, #section .links a {
 	color: #343434;
 	height:216px;
-	margin-top:4px;
+	margin-top:9px;
 	background: #F7F7F7;
 
 }

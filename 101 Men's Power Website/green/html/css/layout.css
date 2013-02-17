@@ -205,7 +205,7 @@
 #footer {
 	clear: both;
 	bottom: -85px;
-	position: absolute;
+	position: fixed;
 	width: 365px;
 	height: 100px;
 	margin: 0px 149px 0px 248px;
@@ -213,11 +213,11 @@
 }
 
 #background{
-	position:absolute;
-	left:50%;
-	margin-left:-400px;
-	width:300px;
-	height:100%;
-	background:green;
+	position: fixed;
+	left: 50%;
+	margin-left: -547px;
+	width: 450px;
+	height: 100%;
+	background: url('../images/bgimage.jpg') 0px -164px;
 }
 
