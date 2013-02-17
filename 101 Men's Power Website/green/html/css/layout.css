@@ -242,8 +242,6 @@ form input{
 	font-size: 20px;
 	width: 347px;
 	display: block;
-	margin-bottom: 15px;
-	margin-top: 5px;
 	outline: none;
 	-webkit-border-radius: 10px;
 	-moz-border-radius: 10px;
@@ -272,13 +270,13 @@ form textarea{
 form #subf{
 	float: left;
 	left: 0;
-	margin-left: -340px;
+	margin-left: -350px;
 	margin-top: 16px;
 }
 form #subl{
 	float: left;
 	left: 0;
-	margin-left: -198px;
+	margin-left: -182px;
 	margin-top: 16px;
 }
 
