@@ -62,7 +62,7 @@
 			<div id="section">
 				<h2 class="title"></h2>
 				<ul class="links">
-					<form action="MAILTO:101menspower@gmail.com" method="post" enctype="text/plain">
+					<form name="myemailform" method="post" action="send_form_email.php">
 						<label width="200px"><b>Name<font color="red"> *</font></b></label><br>
 						<input type="text" id="firstname" name="firstname" required style="width:150px"/>
 						<input type="text" id="lastname" name="lastname" required style="margin-left:10px;width:190px" /><br>
@@ -76,7 +76,7 @@
 						<br><br>
 						<label ><b>Comment<font color="red"> *</font></b></label><br>
 						<textarea type="text" id="comment" name="comment" style="margin-top:2px;height:150px" required ></textarea><br><br>
-						<input id="submitbtn" type="submit" value="Submit">
+						<input id="submitbtn" type="submit" value="Submit"> 
 					</form>
 				</ul>
 
