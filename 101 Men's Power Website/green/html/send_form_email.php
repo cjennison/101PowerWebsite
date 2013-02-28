@@ -31,7 +31,7 @@ $email_body = "You have received a new order from the user $name $lastname.\n".
 	"Email: $visitor_email. \n".
     "Message:$message \n \n".
     
-$to = "cjennison@hitpointstudios.com";//<== update the email address
+$to = "101menspower@gmail.com";//<== update the email address
 $headers = "From: $email_from \r\n";
 $headers .= "Reply-To: $visitor_email \r\n";
 //Send the email!
